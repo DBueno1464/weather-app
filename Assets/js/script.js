@@ -81,7 +81,7 @@ function cityForecasts(city) {
             <div class="card border-primary">
             <div class="text-white day card-header">${forecastDays[0]}</div>
             <div class="text-white temp">Temp: ${array[0].main.temp}</div>
-            <img src=${array[0].weather[0].icon}>
+            <div><img src="http://openweathermap.org/img/w/${array[0].weather[0].icon}.png"></div>
             <div class="text-white wind">Wind: ${array[0].wind.speed}mph</div>
             <div class="text-white humidity">Humidity: ${array[0].main.humidity}%</div>
             </div>
@@ -91,7 +91,7 @@ function cityForecasts(city) {
             <div class="card border-primary bg-red">
             <div class="text-white day card-header">${forecastDays[1]}</div>
             <div class="text-white temp">Temp: ${array[1].main.temp}</div>
-            <img src=${array[1].weather[0].icon}>
+            <div><img src="http://openweathermap.org/img/w/${array[1].weather[0].icon}.png"></div>
             <div class="text-white wind">Wind: ${array[1].wind.speed}mph</div>
             <div class="text-white humidity">Humidity: ${array[1].main.humidity}%</div>
             </div>
@@ -101,7 +101,7 @@ function cityForecasts(city) {
             <div class="card border-primary">
             <div class="text-white day card-header">${forecastDays[2]}</div>
             <div class="text-white temp">Temp: ${array[2].main.temp}</div>
-            <img src=${array[2].weather[0].icon}>
+            <div><img src="http://openweathermap.org/img/w/${array[2].weather[0].icon}.png"></div>
             <div class="text-white wind">Wind: ${array[2].wind.speed}mph</div>
             <div class="text-white humidity">Humidity: ${array[2].main.humidity}%</div>
             </div>
@@ -111,7 +111,7 @@ function cityForecasts(city) {
             <div class="card border-primary">
             <div class="text-white day card-header">${forecastDays[3]}</div>
             <div class="text-white temp">Temp: ${array[3].main.temp}</div>
-            <img src=${array[3].weather[0].icon}>
+            <div><img src="http://openweathermap.org/img/w/${array[3].weather[0].icon}.png"></div>
             <div class="text-white wind">Wind: ${array[3].wind.speed}mph</div>
             <div class="text-white humidity">Humidity: ${array[3].main.humidity}%</div>
             </div>
@@ -121,7 +121,7 @@ function cityForecasts(city) {
             <div class="card border-primary">
             <div class="text-white day card-header">${forecastDays[4]}</div>
             <div class="text-white temp">Temp: ${array[4].main.temp}</div>
-            <img src=${array[4].weather[0].icon}>
+            <div><img src="http://openweathermap.org/img/w/${array[4].weather[0].icon}.png"></div>
             <div class="text-white wind">Wind: ${array[4].wind.speed}mph</div>
             <div class="text-white humidity">Humidity: ${array[4].main.humidity}%</div>
             </div>
