@@ -1,3 +1,11 @@
+header {
+  text-align: center;
+  font-size: 50px;
+  color:black;
+  background-color: bisque;
+  padding: 20px 0px 20px 0;
+}
+
 body {
   font-family: 'Fira Sans', sans-serif;
 }
@@ -11,3 +19,25 @@ h6 {
   font-family: 'Merriweather', serif;
   font-weight: 700;
 }
+
+/* .card {
+  background-color: black;
+} */
+
+#date {
+  font-size: xx-large;
+  padding: 10px;
+}
+
+.temp, 
+.wind,
+.humidity,
+.uv
+{
+  font-size: large;
+  padding: 10px;
+}
+
+
+
+
