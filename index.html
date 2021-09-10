@@ -7,8 +7,10 @@
   <title>Weather App</title>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&family=Merriweather:wght@700&display=swap"
     rel="stylesheet" />
-  <link rel="stylesheet" href="./assets/css/jass.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="jass.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -20,15 +22,16 @@
       <form id="search-form" class="mb-2">
         <input id="search-input" class="form-input w-100" type="text" placeholder="Search!">
         <button id="search-btn" class="btn btn-info btn-block">Search</button>
-      </form>  
-      <div id="form-div"></div>   
+      </form>
+      <div id="form-div"></div>
     </div>
-    
+
     <div class="card col-12 col-md-9 p-3 text-light">
       <div id="weather-card"></div>
       <div id="upcoming-forecasts" class="card-deck mt-3"></div>
     </div>
   </div>
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="./assets/js/script.js"></script>
