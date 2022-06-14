@@ -14,4 +14,4 @@ A weather dashboard that runs in the browser and features dynamically updated HT
 - https://dbueno1464.github.io/weather-app/
 
 ## Screenshot
-![image](https://user-images.githubusercontent.com/82502383/132809948-34747e67-b7b9-4bb9-bece-196d2cdd92d4.png)
+![image](/Assets/img/Screenshot%202022-06-14%20104215.png)
